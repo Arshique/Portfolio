@@ -55,10 +55,12 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 /*-------------------- TYPED JS -------------------- */
 
-const type = new type('.multiple-text',{
-    String: ['Software Developer', 'Web Designer', 'Frontend Developer', 'Student, Class X'],
-    typeSpeed: 70,
-    backSpeed: 70,
-    backDelay: 1000,
-    loop: true,
+window.addEventListener('DOMContentLoaded', () => {
+    const typed = new Typed('.multiple-text', {
+        strings: ['Software Developer', 'Frontend Developer', 'Student, Class X'],
+        typeSpeed: 70,
+        backSpeed: 70,
+        backDelay: 1000,
+        loop: true,
+    },);
 });
