@@ -57,7 +57,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 window.addEventListener('DOMContentLoaded', () => {
     const typed = new Typed('.multiple-text', {
-        strings: ['Software Developer', 'Frontend Developer', 'Student, Class X'],
+        strings: ['Student, Class XI' , 'LOOSER'],
         typeSpeed: 70,
         backSpeed: 70,
         backDelay: 1000,
